@@ -1,7 +1,5 @@
 ---
 - hosts: all
   become: yes
-  vars:
-    drachtioBranch: v0.8.2
   roles:
     - ./roles/ansible-role-rtpengine
