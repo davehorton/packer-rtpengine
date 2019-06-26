@@ -1,0 +1,3 @@
+[submodule "playbooks/roles/ansible-role-rtpengine"]
+	path = playbooks/roles/ansible-role-rtpengine
+	url = git@github.com:davehorton/ansible-role-rtpengine.git
