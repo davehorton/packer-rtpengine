@@ -39,7 +39,7 @@
     {
       "type": "ansible",
       "playbook_file": "./playbooks/rtpengine.yaml",
-      "extra_arguments": [ "--extra-vars", "rtp_engine_version={{user `rtp_engine_version`}} cloud_provider={{user `cloud_provider`}}" ]
+      "extra_arguments": [ "--ssh-extra-args", "-o IdentitiesOnly=yes", "--extra-vars", "rtp_engine_version={{user `rtp_engine_version`}} cloud_provider={{user `cloud_provider`}}" ]
     }
   ]
 }
